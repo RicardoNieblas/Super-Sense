@@ -1,13 +1,9 @@
-import os
-import cv2
-import numpy as np
+import cv2, warnings, numpy as np
 from keras.preprocessing import image
-import warnings
 warnings.filterwarnings("ignore")
 from keras.preprocessing.image import load_img, img_to_array 
 from keras.models import  load_model
 import matplotlib.pyplot as plt
-import numpy as np
 
 # load model
 model = load_model("best_model.h5")
