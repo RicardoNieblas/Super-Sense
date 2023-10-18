@@ -8,3 +8,6 @@ A Machine Learning program able to detect emotions via camera and text input.
 - pandas
 - matplotlib
 - tensorflow
+- nltk
+- textblob
+- newspaper3k

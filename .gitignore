@@ -1,0 +1,6 @@
+# git files
+.git/
+
+# IDE files
+.idea/
+venv/
