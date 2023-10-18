@@ -4,3 +4,6 @@
 # IDE files
 .idea/
 venv/
+
+# Ignore .DS_Store files (macOS specific)
+.DS_Store
