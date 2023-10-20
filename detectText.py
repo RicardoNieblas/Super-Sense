@@ -1,4 +1,4 @@
-import nltk
+import nltk, os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # Download the VADER lexicon for sentiment analysis
@@ -45,6 +45,9 @@ def analyzeSentiment(text, threshold = 0.05):
     return sentiment, confidence
 
 if __name__ == "__main__":
+    # Clear terminal
+    os.system("clear")
+
     while True:
         # Get user input and analyze sentiment
         text = input("Enter a comment (or type 'quit' to close the program): ")
